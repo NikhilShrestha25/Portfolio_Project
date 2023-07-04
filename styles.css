@@ -32,16 +32,6 @@ header > img{
 }
 
 
-
-
-footer{
-    display: flex;
-}
-
-footer div{
-    flex:1
-}
-
 /* Navigation bar*/
 
 nav{
@@ -150,6 +140,18 @@ main+section{
     font-size: 10px
   }
 
- 
+  /*footer*/
+  footer{
+    margin-top: 2rem ;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+#copyright{
+    border-top: solid black;
+}
+
+
 
   
