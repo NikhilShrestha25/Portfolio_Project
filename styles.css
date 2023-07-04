@@ -20,10 +20,15 @@ h2{
     font-size: 2rem;
 }
 
+
+
 header > img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+
 }
 
 
@@ -46,6 +51,7 @@ nav{
     border-radius: 25px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    object-fit: cover;
 }
 
 nav a{
@@ -67,7 +73,7 @@ nav li{
     
 }
 
-/* 1st row of flexbox*/
+/* 1st  flexbox*/
 
 
 main+section{
@@ -75,13 +81,13 @@ main+section{
      
 }
 
-#one{
+#first{
     flex: 1;
     height: 20vh;
     
 }
   
- article img {
+ #first img {
     max-height: 100%;
     min-width: 100%;
     object-fit: cover;
@@ -90,20 +96,60 @@ main+section{
   
   h1{
     position: absolute;
-    top: 50vh;
-    color:#EDEFEE;
+    top: 41vh;
+    color:#ffffff;
     font-size: 2rem;
+    margin-left: 0.5rem;
   }
   h1+p{
     position: absolute;
-    top: 60vh;
-    color:#EDEFEE;
-    font-size: 0.7rem 
+    top: 52vh;
+    color:#ffffff;
+    font-size: 0.7rem ;
+    margin-left: 0.5rem;
   }
 
-  /* 2nd row of flexbox*/
+  /* 2nd flexbox*/
+
+  
   #row{
     display: flex;
   }
+
+  .second {
+    height: 50vh;
+    background-color: bisque;
+    margin-right: 1rem;
+    flex: 1;
+    margin-top: 1rem;
+    border-radius: 15px;
+  }
+
+  .second img{
+    max-height: 40%;
+    max-width: 90%;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+  h2{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+  }
+
+  .second p{
+    margin-left: 0.4rem;
+    font-size: 10px;
+  }
+
+  .second a{
+    margin-left: 0.4rem;
+    font-size: 10px
+  }
+
+ 
 
   
