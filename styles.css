@@ -28,14 +28,7 @@ header > img{
     
 }
 
-nav ul{
-    list-style: none;
-    text-align: center;
-}
 
-nav li{
-    display: inline-block;
-}
 
 section{
     display:flex;
@@ -53,3 +46,32 @@ footer div{
     flex:1
 }
 
+/* Navigation bar*/
+
+nav{
+    background-color: rgba(0, 0, 0, 0.745);
+    height: 3rem;
+    display:flex;
+    border-radius: 25px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+nav a{
+    color:aliceblue;
+    
+    
+}
+
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    flex:1;
+    align-self: center; 
+}
+
+nav li{
+    display: inline-block;
+    
+}
