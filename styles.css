@@ -24,19 +24,10 @@ header > img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
-    
 }
 
 
 
-section{
-    display:flex;
-}
-
-article{
-    flex: 1;
-}
 
 footer{
     display: flex;
@@ -75,3 +66,44 @@ nav li{
     display: inline-block;
     
 }
+
+/* 1st row of flexbox*/
+
+
+main+section{
+    display:flex;
+     
+}
+
+#one{
+    flex: 1;
+    height: 20vh;
+    
+}
+  
+ article img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    border-radius:25px;
+  }
+  
+  h1{
+    position: absolute;
+    top: 50vh;
+    color:#EDEFEE;
+    font-size: 2rem;
+  }
+  h1+p{
+    position: absolute;
+    top: 60vh;
+    color:#EDEFEE;
+    font-size: 0.7rem 
+  }
+
+  /* 2nd row of flexbox*/
+  #row{
+    display: flex;
+  }
+
+  
