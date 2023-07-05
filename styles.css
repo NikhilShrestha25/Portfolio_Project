@@ -45,11 +45,22 @@ nav{
 }
 
 nav a{
-    color:aliceblue;
-    
-    
+    color:aliceblue; 
 }
 
+
+nav a:visited{
+    color:blueviolet;
+}
+
+nav a:hover{
+    color:green;
+}
+
+nav a:active{
+    color:yellow;
+    background-color:black ;
+}
 
 nav ul{
     list-style: none;
@@ -66,7 +77,7 @@ nav li{
 /* 1st  flexbox*/
 
 
-main+section{
+#row{
     display:flex;
      
 }
@@ -102,12 +113,11 @@ main+section{
   /* 2nd flexbox*/
 
   
-  #row{
+  #rowtwo{
     display: flex;
   }
 
   .second {
-    height: 50vh;
     background-color: bisque;
     margin-right: 1rem;
     flex: 1;
@@ -116,7 +126,7 @@ main+section{
   }
 
   .second img{
-    max-height: 40%;
+    max-height: 90%;
     max-width: 90%;
     object-fit: cover;
     margin-top: 1rem;
@@ -140,6 +150,18 @@ main+section{
     font-size: 10px
   }
 
+  .second a:visited{
+    color:blueviolet;
+  }
+
+  .second a:hover{
+    color:green;
+  }
+
+  .second a:active{
+    color:yellow;
+    background-color: black;
+  }
   /*footer*/
   footer{
     margin-top: 2rem ;
